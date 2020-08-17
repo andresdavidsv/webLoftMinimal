@@ -1,5 +1,30 @@
+/* Variables */
+@font-face {
+  font-family: "FontPrimary";
+  src: url("../Fonts/BaskervilleMTStd-Italic.otf");
+}
+@font-face {
+  font-family: "FontNav";
+  src: url("../Fonts/HelveticaNeueLTStd-Th.otf");
+}
+
+/* Header and Nav */
+.navbar-brand {
+  padding-left: 30px;
+}
+.navbar-nav li {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 .header .navbar {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(5, 6, 10, 0.5);
+}
+.header .navbar .nav-link {
+  font-family: "FontNav", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: white;
 }
 
 .carousel-indicators li {
@@ -8,6 +33,21 @@
   height: 10px;
 }
 
+.carousel-caption {
+  font-family: "FontPrimary", italic;
+  font-size: xx-large;
+  height: 50%;
+}
+
+/* Main and Body */
+main {
+  background-color: rgb(34, 38, 47);
+}
+.container-fluid img {
+  max-width: 100%;
+}
+
+/* Footer */
 footer {
-  background-color: black;
+  background-color: rgb(25, 28, 35);
 }
