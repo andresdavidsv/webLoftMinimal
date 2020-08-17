@@ -2,6 +2,7 @@
 @font-face {
   font-family: "FontPrimary";
   src: url("../Fonts/BaskervilleMTStd-Italic.otf");
+  font-size: xx-large;
 }
 @font-face {
   font-family: "FontNav";
@@ -46,7 +47,6 @@
 
 .carousel-caption {
   font-family: "FontPrimary", italic;
-  font-size: xx-large;
   height: 50%;
 }
 
@@ -54,15 +54,29 @@
 main {
   background-color: rgb(34, 38, 47);
 }
+
+.container-fluid .text {
+  color: white;
+  padding-left: 15%;
+  padding-right: 5%;
+  padding-top: 10%;
+  font-size: medium;
+}
+hr {
+  border-top: 1px solid white;
+  margin-left: 0%;
+  margin-right: 92%;
+}
+
 .container-fluid img {
   max-width: 100%;
 }
 
 .container-fluid h2 {
-  color: white;
   font-family: "FontPrimary", italic;
-  font-size: xx-large;
-  text-align: center;
+}
+
+.container-fluid p {
 }
 
 /* Footer */
